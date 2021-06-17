@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="vbh_comm_error_code.cpp" />
+    <ClCompile Include="vbh_comm_func.cpp" />
+    <ClCompile Include="vbh_comm_wrap_msg_def.cpp" />
+    <ClCompile Include="vbh_encrypt_lib.cpp" />
+    <ClCompile Include="vbh_key_codec.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vbh_comm_def_export.h" />
+    <ClInclude Include="vbh_comm_error_code.h" />
+    <ClInclude Include="vbh_comm_func.h" />
+    <ClInclude Include="vbh_comm_id_def.h" />
+    <ClInclude Include="vbh_comm_macro_def.h" />
+    <ClInclude Include="vbh_comm_wrap_msg_def.h" />
+    <ClInclude Include="vbh_encrypt_lib.h" />
+    <ClInclude Include="vbh_key_codec.h" />
+    <ClInclude Include="comm_msg_def\vbh_comm_class_def.h">
+      <Filter>vbh_comm_msg</Filter>
+    </ClInclude>
+    <ClInclude Include="comm_msg_def\vbh_comm_msg_cas_cs_def.h">
+      <Filter>vbh_comm_msg</Filter>
+    </ClInclude>
+    <ClInclude Include="comm_msg_def\vbh_comm_msg_cc_es_def.h">
+      <Filter>vbh_comm_msg</Filter>
+    </ClInclude>
+    <ClInclude Include="comm_msg_def\vbh_comm_msg_clt_clt_def.h">
+      <Filter>vbh_comm_msg</Filter>
+    </ClInclude>
+    <ClInclude Include="comm_msg_def\vbh_comm_msg_cps_cs_def.h">
+      <Filter>vbh_comm_msg</Filter>
+    </ClInclude>
+    <ClInclude Include="comm_msg_def\vbh_comm_msg_es_def.h">
+      <Filter>vbh_comm_msg</Filter>
+    </ClInclude>
+    <ClInclude Include="comm_msg_def\vbh_comm_msg_cc_cs_def.h">
+      <Filter>vbh_comm_msg</Filter>
+    </ClInclude>
+    <ClInclude Include="comm_msg_def\vbh_comm_msg_cps_cpas_def.h">
+      <Filter>vbh_comm_msg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vbh_comm_func.inl" />
+    <None Include="vbh_encrypt_lib.inl" />
+    <None Include="vbh_key_codec.inl" />
+    <None Include="comm_msg_def\vbh_comm_class_def.inl">
+      <Filter>vbh_comm_msg</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="vbh_comm_msg">
+      <UniqueIdentifier>{119f3d38-5988-4ab6-93ca-13216ba690ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

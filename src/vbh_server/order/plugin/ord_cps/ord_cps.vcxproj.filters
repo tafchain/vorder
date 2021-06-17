@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="order_channel_process_service_plugin.cpp">
+      <Filter>order_cps</Filter>
+    </ClCompile>
+    <ClCompile Include="order_channel_process_service.cpp">
+      <Filter>order_cps</Filter>
+    </ClCompile>
+    <ClCompile Include="order_base_channel_process_service.cpp">
+      <Filter>order_cps</Filter>
+    </ClCompile>
+    <ClCompile Include="order_channel_process_service_factory.cpp">
+      <Filter>order_cps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ord_cpas\order_channel_process_agent_service.cpp">
+      <Filter>order_cpas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ord_cpas\order_channel_process_agent_service_factory.cpp">
+      <Filter>order_cpas</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="order_channel_process_service_plugin.h">
+      <Filter>order_cps</Filter>
+    </ClInclude>
+    <ClInclude Include="order_channel_process_service.h">
+      <Filter>order_cps</Filter>
+    </ClInclude>
+    <ClInclude Include="i_order_channel_process_service.h">
+      <Filter>order_cps</Filter>
+    </ClInclude>
+    <ClInclude Include="order_base_channel_process_service.h">
+      <Filter>order_cps</Filter>
+    </ClInclude>
+    <ClInclude Include="order_channel_process_service_factory.h">
+      <Filter>order_cps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ord_cpas\i_order_channel_process_agent_service.h">
+      <Filter>order_cpas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ord_cpas\order_channel_process_agent_service.h">
+      <Filter>order_cpas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ord_cpas\order_channel_process_agent_service_factory.h">
+      <Filter>order_cpas</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="order_cps">
+      <UniqueIdentifier>{4e224b06-d7c8-4082-8caa-1c08bd6cf1dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="order_cpas">
+      <UniqueIdentifier>{c599d639-b303-45b1-af84-635c2fa4d8dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="order_channel_process_service.inl">
+      <Filter>order_cps</Filter>
+    </None>
+    <None Include="..\ord_cpas\order_channel_process_agent_service.inl">
+      <Filter>order_cpas</Filter>
+    </None>
+  </ItemGroup>
+</Project>
